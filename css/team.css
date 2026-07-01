@@ -1,0 +1,84 @@
+.team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.team .container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.container .ul-container {
+    display: flex;
+    gap: 24px;
+}
+
+.team .team-box {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+}
+
+.team-box img {
+    display: block;
+}
+
+.team .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team .team-names {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+
+}
+
+.team .team-department {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.team-box .names-container {
+    padding: 32px 16px;
+}
+
+.team .team-links-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team .team-links-item .team-links-link:hover,
+.team .team-links-item .team-links-link:focus {
+    background-color: #404bbf;
+}
+
+.team .team-links-item .team-links-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
