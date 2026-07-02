@@ -136,6 +136,7 @@
           <ul class="ul-container">
             <li class="team-box">
               <img
+                srcset="./images/team-1.jpg 1x, /images/team-1@2.png 2x"
                 src="./images/team-1.jpg"
                 alt="Product Designer"
                 width="264"
@@ -204,6 +205,7 @@
             </li>
             <li class="team-box">
               <img
+                srcset="./images/team-2.jpg 1x, /images/team-2@2.png 2x"
                 src="./images/team-2.jpg"
                 alt="Frontend Developer"
                 width="264"
@@ -272,6 +274,7 @@
             </li>
             <li class="team-box">
               <img
+                srcset="./images/team-3.jpg 1x, /images/team-3@2.png 2x"
                 src="./images/team-3.jpg"
                 alt="Marketing"
                 width="264"
@@ -340,6 +343,7 @@
             </li>
             <li class="team-box">
               <img
+                srcset="./images/team-4.jpg 1x, /images/team-4@2.png 2x"
                 src="./images/team-4.jpg"
                 alt="UI Designer"
                 width="264"
@@ -417,6 +421,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-1.jpg   1x,
+                    ./images/portfolio-1@2.png
+                  "
                   src="./images/portfolio-1.jpg"
                   alt="Banking App"
                   width="360"
@@ -439,6 +447,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-2.jpg   1x,
+                    ./images/portfolio-2@2.png
+                  "
                   src="./images/portfolio-2.jpg"
                   alt="Cashless Payment"
                   width="360"
@@ -461,6 +473,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-3.jpg   1x,
+                    ./images/portfolio-3@2.png
+                  "
                   src="./images/portfolio-3.jpg"
                   alt="Meditation App"
                   width="360"
@@ -482,6 +498,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-4.jpg   1x,
+                    ./images/portfolio-4@2.png
+                  "
                   src="./images/portfolio-4.jpg"
                   alt="Taxi Service"
                   width="360"
@@ -503,6 +523,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-5.jpg   1x,
+                    ./images/portfolio-5@2.png
+                  "
                   src="./images/portfolio-5.jpg"
                   alt="Screen Illustrations"
                   width="360"
@@ -524,6 +548,10 @@
             <li class="porfolio-item">
               <div class="overlay-parent">
                 <img
+                  srcset="
+                    ./images/portfolio-6.jpg   1x,
+                    ./images/portfolio-6@2.png
+                  "
                   src="./images/portfolio-6.jpg"
                   alt="Online Courses"
                   width="360"
@@ -637,7 +665,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open" id="modal">
+    <div class="modal-overlay" id="modal">
       <div class="modal-container">
         <button type="button" class="close-button">
           <svg class="close-button-image" width="8" height="8">
@@ -724,6 +752,83 @@
 
           <button type="submit" class="send-button">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu is-open">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a href="#" class="mobile-menu-links">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#" class="mobile-menu-links">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#" class="mobile-menu-links">Contacts</a>
+        </li>
+      </ul>
+
+      <div class="mobile-menu-bottom">
+        <address class="mobile-menu-address">
+          <ul class="ul-container">
+            <li>
+              <a href="mailto:info@devstudio.com" class="menu-address-links"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="menu-address-links"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="menu-links-list">
+          <li class="menu-links-item">
+            <a
+              href="./images/icons.svg#icon-instagram-link"
+              target="_blank"
+              class="menu-links-link"
+            >
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-instagram-link"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              href="./images/icons.svg#icon-twitter-link"
+              target="_blank"
+              class="menu-links-link"
+            >
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-twitter-link"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              href="./images/icons.svg#icon-facebook-link"
+              target="_blank"
+              class="menu-links-link"
+            >
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-facebook-link"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-links-item">
+            <a
+              href="./images/icons.svg#icon-linkidin-link"
+              target="_blank"
+              class="menu-links-link"
+            >
+              <svg width="24" height="24" class="svg">
+                <use href="./images/icons.svg#icon-linkidin-link"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>

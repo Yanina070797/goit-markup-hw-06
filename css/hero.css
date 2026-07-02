@@ -9,6 +9,12 @@
     margin: 0 auto;
 }
 
+@media (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url('../images/hero-bg@2.png');
+    }
+}
+
 .hero .container {
     display: flex;
     flex-direction: column;
