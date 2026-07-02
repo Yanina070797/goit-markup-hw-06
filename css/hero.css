@@ -51,7 +51,7 @@
 .hero .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.07143;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -63,6 +63,7 @@
 
     .hero .title {
         font-size: 56px;
+        line-height: 1.07143;
         max-width: 496px;
 
     }

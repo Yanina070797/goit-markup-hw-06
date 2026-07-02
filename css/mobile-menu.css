@@ -80,3 +80,37 @@
     flex-direction: column;
     gap: 48px;
 }
+
+.mobile-menu .close-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    background: #e7e9fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-bottom: 24px;
+    flex-shrink: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu .close-button:hover, .modal-container .close-button:focus {
+    background-color: #404bbf;
+
+}
+
+.mobile-menu .close-button-image {
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu .close-button:hover .close-button-image, .modal-container .close-button:focus .close-button-image {
+    fill: #fff;
+}
+
+.mobile-menu .telephone {
+    color: #4d5ae5;
+}
