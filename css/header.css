@@ -12,9 +12,16 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    margin: 0px 76px 0px 0px;
+    margin-right: 76px;
     padding: 16px 0;
 
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+
+    .logo-header {
+        margin-right: 120px;
+    }
 }
 
 .logo-header .part-of-the-logo {
@@ -63,16 +70,29 @@
     color: #404bbf;
 }
 
-.address-links {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-    display: block;
-    padding: 24px 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+@media screen and (min-width:768px) {
+    .address-links {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #434455;
+        font-style: normal;
+        display: block;
+        padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+
+@media screen and (min-width:1158px) {
+    .address-links {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+    }
 }
 
 .address-links:hover, .address-links:focus {
@@ -122,6 +142,11 @@
 
 .header .burger-menu-image {
     margin: 16px;
+}
+
+.header .burger-button {
+    border: none;
+    background-color: transparent;
 }
 
 @media screen and (min-width:768px) {

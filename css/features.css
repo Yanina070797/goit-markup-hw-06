@@ -1,6 +1,12 @@
 .features {
     background-color: #fff;
-    padding: 120px 0;
+    padding: 96px 0;
+}
+
+@media screen and (min-width:1158px) {
+    .features {
+        padding: 120px 0;
+    }
 }
 
 .features .container {
@@ -9,22 +15,45 @@
 }
 
 .features .features-titles {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
 
+@media screen and (min-width:768px) {
+    .features .features-titles {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:1158px) {
+    .features .features-titles {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
+
 .features .features-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 
 }
+
+@media screen and (min-width:1158px) {
+    .features .features-text {
+        font-weight: 400;
+
+    }
+}
+
 
 .features .features-svg {
     display: none;
